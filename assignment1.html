@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment1</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+	<script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+	<div class="container-fluid p-3 bg-danger">
+		<h1 class="text-white pl-5"><img src="img/1.png" style="width: 60px;height: 60px" class="mr-5">Good Food</h1>
+	</div>
+	<!-- Menu -->
+	<div class="container">
+		<div class="row mt-5">
+			<div class="col-md-6">
+				<ul class="nav nav-pills mb-3 " id="tab" role="tablist">
+  					<li class="nav-item" role="presentation">
+    					<a class="nav-link bg-danger text-white" id="home" data-toggle="pill" href="#home" role="tab" aria-controls="home" aria-selected="true">Sushi</a>
+  					</li>
+  					<li class="nav-item" role="presentation">
+   						<a class="nav-link text-danger" id="profile" data-toggle="pill" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Bento Boxes</a>
+  					</li>
+ 					<li class="nav-item" role="presentation">
+    					<a class="nav-link text-danger" id="contact" data-toggle="pill" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Ramen</a>
+  					</li>
+  					<li class="nav-item" role="presentation">
+    					<a class="nav-link text-danger" id="address" data-toggle="pill" href="#address" role="tab" aria-controls="address" aria-selected="false">Appetizers</a>
+  					</li>
+  					<li class="nav-item" role="presentation">
+    					<a class="nav-link text-danger" id="about" data-toggle="pill" href="#about" role="tab" aria-controls="about" aria-selected="false">Rice</a>
+  					</li>
+				</ul>
+	<!-- Card -->
+			<div class="row">
+			<div class="col-md-4">
+				<div class="card">
+					<div class="card_img">
+						<img src="img/onions.jpg" class="card-img-top border image">
+					</div>
+					<div class="card-body text-center">
+						<p>Red Onion</p>
+						<button class="btn btn-outline-success btn-block">Add To Card</button>
+					</div>
+				</div>
+				</div>
+				<div class="col-md-4">
+				<div class="card">
+					<div class="card_img">
+						<img src="img/garlic.png" class="card-img-top border image">
+					</div>
+					<div class="card-body text-center">
+						<p>Garlic</p>
+						<button class="btn btn-outline-success btn-block">Add To Card</button>
+					</div>
+				</div>
+				</div>
+				<div class="col-md-4">
+				<div class="card">
+					<div class="card_img">
+						<img src="img/corret.png" class="card-img-top border image">
+					</div>
+					<div class="card-body text-center">
+						<p>Carrot</p>
+						<button class="btn btn-outline-success btn-block">Add To Card</button>
+					</div>
+				</div>
+				</div>
+				<div class="col-md-4 py-5">
+				<div class="card">
+					<div class="card_img">
+						<img src="img/ocha.png" class="card-img-top border image">
+					</div>
+					<div class="card-body text-center">
+						<p>Ocha</p>
+						<button class="btn btn-outline-success btn-block">Add To Card</button>
+					</div>
+				</div>
+				</div>
+
+				<div class="col-md-4 py-5">
+				<div class="card">
+					<div class="card_img">
+						<img src="img/jp2.jpg" class="card-img-top border image">
+					</div>
+					<div class="card-body text-center">
+						<p>Sushi</p>
+						<button class="btn btn-outline-success btn-block">Add To Card</button>
+					</div>
+				</div>
+				</div>
+
+				<div class="col-md-4 py-5">
+				<div class="card">
+					<div class="card_img">
+						<img src="img/sea.jpg" class="card-img-top border image">
+					</div>
+					<div class="card-body text-center">
+						<p>SeaFood</p>
+						<button class="btn btn-outline-success btn-block">Add To Card</button>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<h3 class="text-center">Payment</h3>
+				<table class="table table-bordered">
+					<thead class="bg-light">
+						<tr class="p-3">
+							<th>Name</th>
+							<th>Qty</th>
+							<th>Price</th>
+							<th>Remove</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th>Sushi<p class="">5000Ks</p>
+							</th>
+							<td><button class="btn btn-dark text-center text-white mg-2">+</button> 1 <button class="btn btn-dark text-center text-white">-</button></td>
+							<td>4800</td>
+							<td class="text-center"><button class="btn btn-danger">&times</button></td>
+						</tr>
+						<tr>
+							<th>Grand Total</th>
+							<td colspan="3">5000 Ks</td>
+						</tr>
+						<tr>
+							<th scope="row">Paid</th>
+							<td colspan="3"><button class="btn btn-block btn-outline-secondary">Paid Money</button></td>
+						</tr>
+						<tr>
+							<th>Changes</th>
+							<td colspan="3"><button class="btn btn-block btn-outline-secondary bg-light">Changes Money</button></td>
+						</tr>
+						<tr>
+							<td colspan="4"><button class="btn btn-block btn-outline-secondary">Check Out</button></td>
+						</tr>
+					</tbody>
+				</table>
+		</div>
+		</div>
+	</div>	
+</body>
+</html>
